@@ -1,0 +1,22 @@
+button {
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
